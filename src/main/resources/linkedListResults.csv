@@ -1,0 +1,10 @@
+Operation,1000,10000,100000,1000000,10000000,100000000
+Stream collect,2,1,5,10,125,838
+Stream mapToLong,2,2,6,11,79,706
+Parallel Stream,1,2,5,27,157,751
+Stream reduce,1,2,4,79,290,960
+Iterator,0,1,8,19,379,1472
+For loop,0,1,11,28,173,1327
+ForEach,1,2,12,28,617,1948
+While loop,1,48,4353,N/A,N/A,N/A
+Indexed For,1,40,4457,N/A,N/A,N/A
