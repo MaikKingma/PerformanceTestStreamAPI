@@ -21,32 +21,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SumUpTest {
 
-//    @AfterAll
-//    static void logResult() {
-//        System.out.println("""
-//                Array List Results:
-//                given size:""" + SumUp.ARRAY_SIZE +
-//                """
-//
-//                ----------------------------------------""");
-//
-//        averageResultsArray.entrySet().stream().sorted(Map.Entry.comparingByValue())
-//        .forEach(entry -> System.out.println(entry.getKey() + ": " + entry.getValue() + " ms"));
-//
-//        System.out.println("""
-//                ----------------------------------------
-//
-//                Linked List Results:
-//                given size:""" + SumUp.ARRAY_SIZE +
-//                """
-//
-//                ----------------------------------------""");
-//        HashMap<String, Double> averageResultsLinked = new HashMap<>();
-//        linkedResults.forEach((key, value1) -> averageResultsLinked.put(key, value1.stream().mapToLong(value -> value).average().orElse(0.0)));
-//        averageResultsLinked.entrySet().stream().sorted(Map.Entry.comparingByValue())
-//                .forEach(entry -> System.out.println(entry.getKey() + ": time in ms: " + entry.getValue()));
-//    }
-
     static List<SumUp> testBases;
     static Result arrayListResults = new Result(1);
     static Result getLinkedListResults = new Result(1);
